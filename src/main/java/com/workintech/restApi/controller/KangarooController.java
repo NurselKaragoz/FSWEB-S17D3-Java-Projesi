@@ -43,7 +43,7 @@ public class KangarooController {
     }
     @DeleteMapping("/{id}")
     public Kangaroo kangaroo(@RequestBody Kangaroo kangaroo){
-       return kangarooMap.remove(kangaroo.getId());
+        return kangarooMap.remove(kangaroo.getId());
     }
 
 }

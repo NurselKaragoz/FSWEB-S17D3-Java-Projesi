@@ -13,6 +13,6 @@ public class Koala {
     private String name;
     private int weight;
     private int sleepHour;
-    private int gender;
+    private String gender;
 
 }
